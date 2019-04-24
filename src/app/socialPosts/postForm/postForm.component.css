@@ -1,0 +1,36 @@
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+form {
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.title {
+    width: 350px;
+    height: 25px;
+
+}
+
+.thought {
+    width: 350px;
+    height: 300px;
+
+}
+
+button {
+    width: 355px;
+    height: 25px;
+}

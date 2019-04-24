@@ -1,0 +1,9 @@
+<div *ngIf="!hide" >
+<form>
+<h1>Title</h1>
+<input class="title" type="text" [(ngModel)]="titleInput"/><br>
+<h1>Thought</h1>
+<input class="thought" type="text" [(ngModel)]="thoughtInput"/><br>
+<button (click)="submitPost" >Add Post</button>
+</form>
+</div>
